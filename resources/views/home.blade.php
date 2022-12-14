@@ -7,7 +7,7 @@ include "header.php"
         <div class="row">
             <div class="col-lg-6">
                 <div class="hero-text">
-                    <h1>Tes</h1>
+                    <h1>Tapops, The Best Luxury Hotel You Can Find </h1>
                     <p>Here are the best hotel booking sites, including recommendations for international
                         travel.</p>
                     <a href="#" class="primary-btn">Discover Now</a>

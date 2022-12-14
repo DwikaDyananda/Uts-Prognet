@@ -15,7 +15,7 @@ include "header.php"
             </div>
             <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
                 <div class="booking-form">
-                    <h3>Book Now</h3>
+                    <h3>Check Rooms</h3>
                     <form action="#">
                         <div class="check-date">
                             <label for="date-in">Check In:</label>

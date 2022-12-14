@@ -7,15 +7,15 @@ include "header.php"
         <div class="row">
             <div class="col-lg-6">
                 <div class="hero-text">
-                    <h1>Tapops, The Best Luxury Hotel You Can Find </h1>
-                    <p>Here are the best hotel booking sites, including recommendations for international
-                        travel.</p>
+                    <h1>Tapops Luxury Hotel</h1>
+                    <p>Welcome, to the best hotel booking sites for the best hotel in Bali.
+                    </p>
                     <a href="#" class="primary-btn">Discover Now</a>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
                 <div class="booking-form">
-                    <h3>Book Your Hotel Now</h3>
+                    <h3>Book Now</h3>
                     <form action="#">
                         <div class="check-date">
                             <label for="date-in">Check In:</label>
@@ -44,6 +44,14 @@ include "header.php"
                                 <option value="">Group Room</option>
                             </select>
                         </div>
+                        <div class="select-option">
+                            <label for="room">Type:</label>
+                            <select id="room">
+                                <option value="">King Suite</option>
+                                <option value="">VIP Suite</option>
+                                <option value="">Regular Suite</option>
+                            </select>
+                        </div>
                         <button type="submit">Check Availability</button>
                     </form>
                 </div>
@@ -51,8 +59,8 @@ include "header.php"
         </div>
     </div>
     <div class="hero-slider owl-carousel">
-        <div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg"></div>
-        <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg"></div>
+        <div class="hs-item set-bg" data-setbg="img/hero/hero-4.jpg"></div>
+        <div class="hs-item set-bg" data-setbg="img/hero/hero-6.jpg"></div>
         <div class="hs-item set-bg" data-setbg="img/hero/hero-3.jpg"></div>
     </div>
 </section>
@@ -72,8 +80,8 @@ include "header.php"
                         Hotel. Every day, we make sure our customers have the most luxurious, comfortable, and 
                         memorable stay in Bali.</p>
                     <p class="s-para">So when it comes to booking the perfect hotel for you
-                        and your family, we’ve got you covered.</p>
-                    <a href="#" class="primary-btn about-btn">Read More</a>
+                        and your family, we are all you need.</p>
+                    <a href="./about-us" class="primary-btn about-btn">Read More</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -100,7 +108,7 @@ include "header.php"
             <div class="col-lg-12">
                 <div class="section-title">
                     <span>What We Do</span>
-                    <h2>Discover Our Services</h2>
+                    <h2>Our Services</h2>
                 </div>
             </div>
         </div>
@@ -163,111 +171,82 @@ include "header.php"
     <div class="container-fluid">
         <div class="hp-room-items">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-7">
                     <div class="hp-room-item set-bg" data-setbg="img/room/room-b1.jpg">
                         <div class="hr-text">
                             <h3>King Suite</h3>
-                            <h2>Rp4.500.000<span>/night</span></h2>
+                            <!-- <h2>Rp4.500.000<span>/night</span></h2>
                             <table>
                                 <tbody>
                                     <tr>
                                         <td class="r-o">Size:</td>
-                                        <td>30 ft</td>
+                                        <td>9 m2</td>
                                     </tr>
                                     <tr>
                                         <td class="r-o">Capacity:</td>
-                                        <td>Max persion 5</td>
+                                        <td>7 person</td>
                                     </tr>
                                     <tr>
                                         <td class="r-o">Bed:</td>
-                                        <td>King Beds</td>
+                                        <td>King Bed</td>
                                     </tr>
                                     <tr>
                                         <td class="r-o">Services:</td>
-                                        <td>Wifi, Television, Bathroom,...</td>
+                                        <td>Wifi, Television, Bathroom, Living Room, ...</td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="#" class="primary-btn">More Details</a>
+                            <a href="#" class="primary-btn">More Details</a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-7">
                     <div class="hp-room-item set-bg" data-setbg="img/room/room-b2.jpg">
                         <div class="hr-text">
                             <h3>VIP Suite</h3>
-                            <h2>Rp3.500.000<span>/night</span></h2>
+                            <!-- <h2>Rp3.500.000<span>/night</span></h2>
                             <table>
                                 <tbody>
                                     <tr>
                                         <td class="r-o">Size:</td>
-                                        <td>30 ft</td>
+                                        <td>7 m2</td>
                                     </tr>
                                     <tr>
                                         <td class="r-o">Capacity:</td>
-                                        <td>Max persion 5</td>
+                                        <td>5 person</td>
                                     </tr>
                                     <tr>
                                         <td class="r-o">Bed:</td>
-                                        <td>King Beds</td>
+                                        <td>King Bed</td>
                                     </tr>
                                     <tr>
                                         <td class="r-o">Services:</td>
-                                        <td>Wifi, Television, Bathroom,...</td>
+                                        <td>Wifi, Television, Bathroom, Kitchen, ...</td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="#" class="primary-btn">More Details</a>
+                            <a href="#" class="primary-btn">More Details</a> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="hp-room-item set-bg" data-setbg="img/room/room-b3.jpg">
-                        <div class="hr-text">
-                            <h3>Deluxe Suite</h3>
-                            <h2>Rp1.200.000<span>/night</span></h2>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td class="r-o">Size:</td>
-                                        <td>30 ft</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="r-o">Capacity:</td>
-                                        <td>Max persion 5</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="r-o">Bed:</td>
-                                        <td>King Beds</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="r-o">Services:</td>
-                                        <td>Wifi, Television, Bathroom,...</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <a href="#" class="primary-btn">More Details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-7">
                     <div class="hp-room-item set-bg" data-setbg="img/room/room-b4.jpg">
                         <div class="hr-text">
                             <h3>Regular Suite</h3>
-                            <h2>Rp450.000<span>/night</span></h2>
+                            <!-- <h2>Rp450.000<span>/night</span></h2>
                             <table>
                                 <tbody>
                                     <tr>
                                         <td class="r-o">Size:</td>
-                                        <td>30 ft</td>
+                                        <td>5 m2</td>
                                     </tr>
                                     <tr>
                                         <td class="r-o">Capacity:</td>
-                                        <td>Max persion 5</td>
+                                        <td>2 person</td>
                                     </tr>
                                     <tr>
                                         <td class="r-o">Bed:</td>
-                                        <td>King Beds</td>
+                                        <td>Queen Bed</td>
                                     </tr>
                                     <tr>
                                         <td class="r-o">Services:</td>
@@ -275,7 +254,7 @@ include "header.php"
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="#" class="primary-btn">More Details</a>
+                            <a href="#" class="primary-btn">More Details</a> -->
                         </div>
                     </div>
                 </div>
@@ -291,8 +270,8 @@ include "header.php"
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <span>Testimonials</span>
-                    <h2>What Our Customers Say?</h2>
+                    <span>Review</span>
+                    <h2>What They Say About Us?</h2>
                 </div>
             </div>
         </div>
@@ -312,7 +291,7 @@ include "header.php"
                                 <i class="icon_star"></i>
                                 <i class="icon_star-half_alt"></i>
                             </div>
-                            <h5> - Jonathan Pedro</h5>
+                            <h5> - Made Swara</h5>
                         </div>
                         <img src="img/testimonial-logo.png" alt="">
                     </div>

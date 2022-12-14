@@ -28,7 +28,7 @@ include "header.php"
                 <div class="col-lg-6">
                     <div class="ap-title">
                         <h2>Welcome To Tapops.</h2>
-                        <p>Built in 2020, this hotel is located in Canggu as one of the most visited 
+                        <p>Built in 2010, this hotel is located in Canggu as one of the most visited 
                             destination in Bali, with easy access to the city's tourist attractions. 
                             It offers tastefully decorated rooms.
                         </p>
@@ -38,7 +38,7 @@ include "header.php"
                     <ul class="ap-services">
                         <li><i class="icon_check"></i> 20% Off On Accommodation.</li>
                         <li><i class="icon_check"></i> 5 star Breakfast</li>
-                        <li><i class="icon_check"></i> 3 Pcs Laundry Per Day</li>
+                        <li><i class="icon_check"></i> 5 Pcs Laundry Per Day</li>
                         <li><i class="icon_check"></i> Free Wifi with speed up to 1 gb/sec per room.</li>
                         <li><i class="icon_check"></i> Discount 20% On F&B</li>
                         <li><i class="icon_check"></i> Gym free to use 24 hour</li>

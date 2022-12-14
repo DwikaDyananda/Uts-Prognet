@@ -11,7 +11,8 @@ include "header.php"
                     <h2>Our Rooms</h2>
                     <div class="bt-option">
                         <a href="./home">Home</a>
-                        <span>Rooms</span>
+                        <a href="./rooms">Rooms</a>
+                        <span>Details</span>
                     </div>
                 </div>
             </div>
@@ -29,7 +30,7 @@ include "header.php"
                     <img src="img/room/room-details.jpg" alt="">
                     <div class="rd-text">
                         <div class="rd-title">
-                            <h3>Premium King Room</h3>
+                            <h3>Regular Suite</h3>
                             <div class="rdt-right">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -38,51 +39,46 @@ include "header.php"
                                     <i class="icon_star"></i>
                                     <i class="icon_star-half_alt"></i>
                                 </div>
+                                {{-- <a href="#" class="book-btn">Book Now</a> --}}
                             </div>
                         </div>
-                        <h2>159$<span>/Pernight</span></h2>
+                        <h2>Rp450.000<span>/night</span></h2>
                         <table>
                             <tbody>
                                 <tr>
                                     <td class="r-o">Size:</td>
-                                    <td>30 ft</td>
+                                    <td>5 m2</td>
                                 </tr>
                                 <tr>
                                     <td class="r-o">Capacity:</td>
-                                    <td>Max persion 5</td>
+                                    <td>2 person</td>
                                 </tr>
                                 <tr>
                                     <td class="r-o">Bed:</td>
-                                    <td>King Beds</td>
+                                    <td>Queen Bed</td>
                                 </tr>
                                 <tr>
                                     <td class="r-o">Services:</td>
-                                    <td>Wifi, Television, Bathroom,...</td>
+                                    <td>Wifi, Television, Bathroom, Dining/Work Table, Wardrobe, Free Breakfast</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="f-para">Motorhome or Trailer that is the question for you. Here are some of the
-                            advantages and disadvantages of both, so you will be confident when purchasing an RV.
-                            When comparing Rvs, a motorhome or a travel trailer, should you buy a motorhome or fifth
-                            wheeler? The advantages and disadvantages of both are studied so that you can make your
-                            choice wisely when purchasing an RV. Possessing a motorhome or fifth wheel is an
-                            achievement of a lifetime. It can be similar to sojourning with your residence as you
-                            search the various sites of our great land, America.</p>
-                        <p>The two commonly known recreational vehicle classes are the motorized and towable.
-                            Towable rvs are the travel trailers and the fifth wheel. The rv travel trailer or fifth
-                            wheel has the attraction of getting towed by a pickup or a car, thus giving the
-                            adaptability of possessing transportation for you when you are parked at your campsite.
+                        <p class="f-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis alias ipsum 
+                            expedita animi aliquam eos vel quidem modi obcaecati iste, accusamus incidunt doloribus quae blanditiis. 
+                            Voluptatibus officiis maiores a tenetur!.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Nisi ea accusamus dicta autem maxime! Est rem corporis, quasi iure dicta culpa aliquam, repudiandae, 
+                            labore suscipit recusandae deleniti nisi dolores facere?
                         </p>
                     </div>
                 </div>
+
+                <!-- Reviews -->
                 <div class="rd-reviews">
                     <h4>Reviews</h4>
                     <div class="review-item">
-                        <div class="ri-pic">
-                            <img src="img/room/avatar/avatar-1.jpg" alt="">
-                        </div>
                         <div class="ri-text">
-                            <span>27 Aug 2019</span>
+                            <span>18 Okt 2014</span>
                             <div class="rating">
                                 <i class="icon_star"></i>
                                 <i class="icon_star"></i>
@@ -90,18 +86,15 @@ include "header.php"
                                 <i class="icon_star"></i>
                                 <i class="icon_star-half_alt"></i>
                             </div>
-                            <h5>Brandon Kelley</h5>
+                            <h5>Thomas Jordy</h5>
                             <p>Neque porro qui squam est, qui dolorem ipsum quia dolor sit amet, consectetur,
                                 adipisci velit, sed quia non numquam eius modi tempora. incidunt ut labore et dolore
                                 magnam.</p>
                         </div>
                     </div>
                     <div class="review-item">
-                        <div class="ri-pic">
-                            <img src="img/room/avatar/avatar-2.jpg" alt="">
-                        </div>
                         <div class="ri-text">
-                            <span>27 Aug 2019</span>
+                            <span>29 Des 2020</span>
                             <div class="rating">
                                 <i class="icon_star"></i>
                                 <i class="icon_star"></i>
@@ -109,13 +102,15 @@ include "header.php"
                                 <i class="icon_star"></i>
                                 <i class="icon_star-half_alt"></i>
                             </div>
-                            <h5>Brandon Kelley</h5>
+                            <h5>Dwi Putra</h5>
                             <p>Neque porro qui squam est, qui dolorem ipsum quia dolor sit amet, consectetur,
                                 adipisci velit, sed quia non numquam eius modi tempora. incidunt ut labore et dolore
                                 magnam.</p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Add Review -->
                 <div class="review-add">
                     <h4>Add Review</h4>
                     <form action="#" class="ra-form">
@@ -138,15 +133,17 @@ include "header.php"
                                     </div>
                                 </div>
                                 <textarea placeholder="Your Review"></textarea>
-                                <button type="submit">Submit Now</button>
+                                <button type="submit">Submit</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
+
+            <!-- Booking/Reservation Form -->
             <div class="col-lg-4">
                 <div class="room-booking">
-                    <h3>Booking Room</h3>
+                    <h3>Your Reservation</h3>
                     <form action="#">
                         <div class="check-date">
                             <label for="date-in">Check In:</label>
@@ -161,16 +158,21 @@ include "header.php"
                         <div class="select-option">
                             <label for="guest">Guests:</label>
                             <select id="guest">
-                                <option value="">3 Adults</option>
+                                <option value="">1-2 Adults</option>
+                                <option value="">3-4 Adults</option>
+                                <option value="">Family</option>
+                                <option value="">Group</option>
                             </select>
                         </div>
                         <div class="select-option">
                             <label for="room">Room:</label>
                             <select id="room">
                                 <option value="">1 Room</option>
+                                <option value="">2 Room</option>
+                                <option value="">Group Room</option>
                             </select>
                         </div>
-                        <button type="submit">Booking Now</button>
+                        <button type="submit">Book Now</button>
                     </form>
                 </div>
             </div>

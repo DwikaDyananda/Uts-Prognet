@@ -42,13 +42,10 @@
           </div>
           <div class="col-lg-6">
             <div class="tn-right">
-              <div class="top-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-tripadvisor"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-              </div>
               <a href="#" class="bk-btn">Booking Now</a>
+              <a href="login" class="bk-btn1">Log In</a>
+              |
+              <a href="signup" class="bk-btn1">Sign Up</a>
             </div>
           </div>
         </div>
@@ -74,8 +71,9 @@
                   <li><a href="./contact">Contact</a></li>
                 </ul>
               </nav>
-              <div class="nav-right search-switch">
-                <i class="icon_search"></i>
+              <div class="nav-right search-box">
+                <button class="btn-search"><i class="fa fa-search"></i></button>
+                <input type="text" class="input-search" placeholder="Type to Search...">
               </div>
             </div>
           </div>

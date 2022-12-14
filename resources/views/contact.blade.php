@@ -6,7 +6,7 @@ include "header.php"
 <section class="contact-section spad">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-5">
                 <div class="contact-text">
                     <h2>Our Contact</h2>
                     <p>If you have any questions, advice, critics, please feel free to contact us.</p>
@@ -36,7 +36,7 @@ include "header.php"
                     </table>
                 </div>
             </div>
-            <div class="col-lg-7 offset-lg-1">
+            <div class="col-lg-6 offset-lg-1">
                 <form action="#" class="contact-form">
                     <div class="row">
                         <div class="col-lg-6">
@@ -47,7 +47,7 @@ include "header.php"
                         </div>
                         <div class="col-lg-12">
                             <textarea placeholder="Your Message"></textarea>
-                            <button type="submit">Submit Now</button>
+                            <button type="submit">Submit</button>
                         </div>
                     </div>
                 </form>

@@ -143,7 +143,7 @@ include "header.php"
             <!-- Booking/Reservation Form -->
             <div class="col-lg-4">
                 <div class="room-booking">
-                    <h3>Your Reservation</h3>
+                    <h3>Booking Room</h3>
                     <form action="#">
                         <div class="check-date">
                             <label for="date-in">Check In:</label>

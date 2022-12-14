@@ -38,7 +38,6 @@ include "header.php"
                                     <i class="icon_star"></i>
                                     <i class="icon_star-half_alt"></i>
                                 </div>
-                                <a href="#">Booking Now</a>
                             </div>
                         </div>
                         <h2>159$<span>/Pernight</span></h2>
@@ -147,7 +146,7 @@ include "header.php"
             </div>
             <div class="col-lg-4">
                 <div class="room-booking">
-                    <h3>Your Reservation</h3>
+                    <h3>Booking Room</h3>
                     <form action="#">
                         <div class="check-date">
                             <label for="date-in">Check In:</label>
@@ -171,7 +170,7 @@ include "header.php"
                                 <option value="">1 Room</option>
                             </select>
                         </div>
-                        <button type="submit">Check Availability</button>
+                        <button type="submit">Booking Now</button>
                     </form>
                 </div>
             </div>
